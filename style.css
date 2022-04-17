@@ -107,7 +107,7 @@ a {
     width: 125px;
     border-radius: 8px;
     color: white;
-    background-color: #0088dd;
+    background-color: #3882f6;
     font-weight: 800;
     font-size: 14px;
     align-items: center;
@@ -192,4 +192,52 @@ a {
     font-weight: 700;
 }
 
+.ad-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
 
+.blue-box {
+    box-sizing: initial;
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    padding: 30px 150px;
+}
+
+.ad-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.ad-text p,h1 {
+    margin: 0;
+    color: white;
+}
+
+.ad-text h1 {
+    font-size: 24px;
+}
+
+.ad-text p {
+    font-size: 16px;
+}
+
+.ad-section .button {
+    border: 2px solid white;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 20px;
+    color: white;
+}
